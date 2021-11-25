@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Mobile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <script 
+  src="https://kit.fontawesome.com/6e6545e710.js" 
+  crossorigin="anonymous"
+  ></script> 
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class='fab fa-youtube'></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Video player -->
+  <section class="player">
+    <video controls src="video/bird.mp4"></video>
+  </section>
+
+
+
+  <!-- Info And Up Next -->
+  <div class="infoAndUpNext">
+        <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#ConnectingTheDots</li>
+          <li>#Birds</li> 
+          <li>#VideoForCats</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            [고양이 텔레비전] 고양이가 좋아하는 영상 (Videos for Cats to Watch) | 나뭇가지 위의 포동포동한 새가 너무 귀여워요! 
+          </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="title views">조회수 1,992회 · 2021. 11. 21.</span>
+      </div>
+      <!-- Actions -->
+      <ul class="actions">
+        <li>
+          <button><i class="fa fa-solid fa-thumbs-up active"></i>31</button>
+        </li>
+        <li>
+          <button><i class="fa fa-solid fa-thumbs-down"></i>2</button>
+        </li>
+        <li>
+          <button><i class="fa fa-solid fa-share"></i>공유</button>
+        </li>
+        <li>
+          <button><i class="fa fa-solid fa-video"></i>만들기</button>
+        </li>
+        <li>
+          <button><i class="fa fa-solid fa-download"></i>오프라인 저장</button>
+        </li>
+        <li>
+          <button><i class="fa fa-solid fa-plus"></i>저장</button>
+        </li>
+      </ul>
+      <!-- Channel Description-->
+      <div class="channel">
+        <div class="metadata">
+          <img src="image/person.png" alt="Seoyun" />
+          <div class="info">
+            <span class="name">Connecting-the-dots</span>
+            <span class="subscribers">구독자 208명</span>
+          </div>
+        </div>
+        <button class="subscribe">구독</button>
+      </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+      <span class="title">다음 영상보기</span>
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img src="image/img1.jpg" alt="salad&fruits" />
+          </div>
+          <div class="info">
+            <span class="title">
+              샐러드의 모든 것! 일주일동안 코끼리만큼 샐러드를 먹어도 살이 빠질까?
+            </span>
+            <span class="name">인간 코끼리</span>
+            <span class="views">조회수 6.7만회 · 2주 전</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/img2.jpg" alt="night-sea" />
+          </div>
+          <div class="info">
+            <span class="title">
+              [ASMR] 몽환적인 밤바다 소리, 잔잔한 파도 소리
+            </span>
+            <span class="name">치유하는 소리</span>
+            <span class="views">조회수 148만회 · 1년 전</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="image/img3.jpg" alt="puppies" />
+          </div>
+          <div class="info">
+            <span class="title">
+              할머니만 오매불망 기다리는 까망이들
+            </span>
+            <span class="name">할매는 밭일중</span>
+            <span class="views">조회수 62회 · 3개월 전</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
